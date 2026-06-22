@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────────────────────
+# Project 3: E-Commerce Sales Performance Dashboard
+# DSC 308 — Data Visualization · Winter 2026
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Python version: 3.9+
+# ─────────────────────────────────────────────────────────────
+
+# ── Dashboard framework ───────────────────────────────────────
+dash>=2.14.0                # Core Dash framework (layout + server)
+dash-core-components>=2.0.0 # dcc.Dropdown, dcc.Slider, dcc.Graph, etc.
+dash-html-components>=2.0.0 # html.Div, html.H1, html.P, etc.
+
+# ── Charting ──────────────────────────────────────────────────
+plotly>=5.18.0              # All chart types (px + go); required by Dash
+
+# ── Data processing ───────────────────────────────────────────
+pandas>=2.0.0               # DataFrame operations, groupby, date parsing
+numpy>=1.24.0               # Numeric utilities (used in preprocessing)
+
+# ── Notebook (preprocessing only) ────────────────────────────
+jupyter>=1.0.0              # Jupyter meta-package
+notebook>=7.0.0             # Classic notebook interface for preprocessing.ipynb
